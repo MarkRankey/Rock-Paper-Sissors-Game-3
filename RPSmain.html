@@ -1,0 +1,39 @@
+<html>
+
+<head>
+	<title>Rock, Paper, Scissors Game</title>
+	
+	<link rel="stylesheet" href="RPS.css">
+</head>
+
+<body>
+	<h1>Rock, Paper, Scissors Game</h1>
+	
+	<div id="welcomeScreen">
+		<form id="welcomeForm">
+			<label for="userName">
+				Name:
+				<input type="text" id="userName" />
+			</label>
+			<input type="submit" name="startButton" value="Start Playing!">
+		</form>
+	</div>
+	
+	<div id="gameScreen" class="hidden"> 	
+		<form id="gameForm">
+			<label for="choice">
+			Your Choice:
+				<select id="choice">
+					<option value="Rock">Rock</option>
+					<option value="Paper">Paper</option>
+					<option value="Scissors">Scissors</option>
+				</select>
+			</label>
+			<input type="submit" value="Play!">
+		</form>
+		
+	</div>
+	
+	<script src="RPS.js"></script>
+</body>
+</html>
